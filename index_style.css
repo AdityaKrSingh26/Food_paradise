@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Permanent Marker', cursive; */
+    font-family: 'Kalam', cursive;
+}
+
+nav {
+    margin: 20px;
+    height: 10vh;
+    padding: 0px 30px;
+    background-color: #01b960;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    font-size: x-large;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+.welcomeBox {
+    height: 90vh;
+    width: auto;
+    margin: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcomeBox img {
+    width: 500px;
+    height: auto;
+}
+
+.welcomeBox p {
+    padding: 20px 0px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.info .time,
+.info .location,
+.info .call {
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.info i {
+    margin-right: 10px;
+}
+
+.quality {
+    height: 70vh;
+    width: auto;
+    margin: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quality img {
+    padding: 0px 30px;
+    height: 60vh;
+}
+
+.exp {
+    display: flex;
+    justify-content: center;
+}
+
+.Explore {
+    align-items: center;
+    text-align: center;
+    height: 60px;
+    width: 200px;
+    background-color: #01b960;
+    border: #01b960;
+    border-radius: 20px;
+    font-size: larger;
+    transition: transform 0.3s ease;
+}
+
+.Explore:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.order h3 {
+    font-size: xxx-large;
+    text-align: center;
+    padding: 20px;
+}
+
+.text {
+    margin: 20px;
+    height: 50px;
+    width: 90vw;
+    padding: 0px 35px;
+    background-color: #f2f2f2;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text h1 {
+    cursor: pointer;
+}
+
+.container {
+    margin: 25px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .card1,
+.container .card2,
+.container .card3,
+.container .card4 {
+    overflow: hidden;
+    margin: 0px 10px;
+    background-color: #f2f2f2;
+    height: 200px;
+    width: 290px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px #8ab297;
+    transition: transform 0.3s ease;
+}
+
+.add {
+    display: none;
+    background-color: #f2f2f2;
+    /* height: 50px; */
+    width: 290px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: larger;
+}
+
+
+.container .card1 img,
+.container .card2 img,
+.container .card3 img,
+.container .card4 img {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.container .card1:hover,
+.container .card2:hover,
+.container .card3:hover,
+.container .card4:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.container {
+    display: none;
+}
+
+
+
+
+
+
+
+
+.services {
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.services h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.services p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.services .card1,
+.services .card2,
+.services .card3 {
+    overflow: hidden;
+    margin: 0px 40px;
+    background-color: #f2f2f2;
+    height: 400px;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px #8ab297;
+    transition: transform 0.3s ease;
+}
+
+.services .card1 img,
+.services .card2 img,
+.services .card3 img {
+    height: 200px;
+    width: 300px;
+    /* width: auto; */
+    object-fit: cover;
+}
+
+.services .card1:hover,
+.services .card2:hover,
+.services .card3:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.chefs {
+    text-align: center;
+    padding: 40px;
+}
+
+.chefs h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.chefs p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.chef-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chefs .card1,
+.chefs .card2,
+.chefs .card3 {
+    overflow: hidden;
+    margin: 0px 40px;
+    background-color: #f2f2f2;
+    height: 400px;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px #8ab297;
+    transition: transform 0.3s ease;
+}
+
+.chefs .card1:hover,
+.chefs .card2:hover,
+.chefs .card3:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.chefs .card1 img,
+.chefs .card2 img,
+.chefs .card3 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.newsletter {
+    text-align: center;
+    padding: 40px;
+}
+
+.newsletter h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.newsletter input[type="email"] {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+.newsletter button[type="submit"] {
+    padding: 10px 20px;
+    width: 100px;
+    background-color: #01b960;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
